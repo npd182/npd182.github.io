@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #222;
+  background: darkgrey;
+}
+.backBoard {
+    display: none;
+    background-color: #0033FF;
+    padding: 10px;
+    margin: auto;
+/*    width: 390px;
+    height: 325px;*/
+    border: 2px solid black;
+}
+
+.boardC4 { /*C4 = Connect 4*/
+    background-color: #FFFFFF; 
+    border: 2px solid black;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.boardTTT { /*TTT stands for Tic Tac Toe*/
+    background-color: darkgrey; /* Blue */
+    /*border: 2px solid black;*/
+    color: red;
+    margin: 2px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+    width: 75px;
+    height: 75px;
+}
+
+.placerButton {
+    background-color: #FF0000;
+    color: black;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+#title{
+    font-size: 75px;
+    color: green;
+}
+
+#message{
+    font-size: 25px;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+#reset {
+    display: none;
+}
+
+.startButton{
+    background: #34d939;
+    background-image: -webkit-linear-gradient(top, #34d939, #10700b);
+    background-image: -moz-linear-gradient(top, #34d939, #10700b);
+    background-image: -ms-linear-gradient(top, #34d939, #10700b);
+    background-image: -o-linear-gradient(top, #34d939, #10700b);
+    background-image: linear-gradient(to bottom, #34d939, #10700b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.startButton:hover {
+    background: #00ff26;
+    background-image: -webkit-linear-gradient(top, #00ff26, #2aa61f);
+    background-image: -moz-linear-gradient(top, #00ff26, #2aa61f);
+    background-image: -ms-linear-gradient(top, #00ff26, #2aa61f);
+    background-image: -o-linear-gradient(top, #00ff26, #2aa61f);
+    background-image: linear-gradient(to bottom, #00ff26, #2aa61f);
+    text-decoration: none;
+}
